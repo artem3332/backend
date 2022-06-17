@@ -2,16 +2,16 @@
 
 Сonnecting to the database:
 
-server.port=8095
-spring.datasource.url=jdbc:postgresql://localhost:5432/DataBase
-spring.datasource.username=username
-spring.datasource.password=password
-spring.datasource.driver-class-name=org.postgresql.Driver
+server.port=8095 ;
+spring.datasource.url=jdbc:postgresql://localhost:5432/DataBase ;
+spring.datasource.username=username ;
+spring.datasource.password=password ;
+spring.datasource.driver-class-name=org.postgresql.Driver ;
 
-spring.jpa.database=postgresql
-spring.jpa.generate-ddl=true
-spring.jpa.show-sql=true
-spring.jpa.database-platform=org.hibernate.dialect.PostgreSQL10Dialect
+spring.jpa.database=postgresql ;
+spring.jpa.generate-ddl=true ;
+spring.jpa.show-sql=true ;
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQL10Dialect ;
 
 EndPoints:
 
